@@ -2,16 +2,12 @@ local plugin_name = "testgeneratejwt"
 local package_name = "kong-plugin-" .. plugin_name
 local package_version = "0.1.0"
 local rockspec_revision = "1"
+version="0.1.0-1"
+package="kong-plugin-testgeneratejwt"
 
 source = {
    url = "https://github.com/yingyingPengSAP/kong-plugin-testgeneratejwt.git"
 }
-
-dependencies = {
-  "lua >= 5.3",
-  "kong >= 0.14"
-}
-
 
 build = {
   type = "builtin",
